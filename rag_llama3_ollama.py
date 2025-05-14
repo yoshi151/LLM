@@ -92,7 +92,7 @@ def ask_question(chain, query):
 
 # 🔹 5. Run everything
 if __name__ == "__main__":
-    pdf_path = "Depression.pdf"  
+    pdf_path = "COMP030.pdf"  
     print("🔍 load_and_split_pdf...")
     split_docs = load_and_split_pdf(pdf_path)
 
